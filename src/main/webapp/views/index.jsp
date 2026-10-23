@@ -11,16 +11,16 @@
 <div class="w-full max-w-sm rounded-2xl bg-white p-8 shadow-xl">
     <h2 class="mb-6 text-center text-2xl font-bold text-gray-800">Habiba Calculator</h2>
 
-    <form action="add" class="space-y-4">
+    <form action="addAlien" class="space-y-4">
         <div>
-            <label for="num1" class="mb-1 block text-sm font-medium text-gray-700">Enter 1st Number</label>
-            <input type="number" step="any" id="num1" name="num1" required
+            <label for="aid" class="mb-1 block text-sm font-medium text-gray-700">Enter Id</label>
+            <input type="number" step="any" id="aid" name="aid" required
                    class="w-full rounded-lg border border-gray-300 px-3 py-2 focus:border-purple-500 focus:outline-none focus:ring-2 focus:ring-purple-300">
         </div>
 
         <div>
-            <label for="num2" class="mb-1 block text-sm font-medium text-gray-700">Enter 2nd Number</label>
-            <input type="number" step="any" id="num2" name="num2" required
+            <label for="aname" class="mb-1 block text-sm font-medium text-gray-700">Enter name</label>
+            <input type="text" step="any" id="aname" name="aname" required
                    class="w-full rounded-lg border border-gray-300 px-3 py-2 focus:border-purple-500 focus:outline-none focus:ring-2 focus:ring-purple-300">
         </div>
 
