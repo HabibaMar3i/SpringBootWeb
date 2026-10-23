@@ -12,7 +12,7 @@ public class HomeController {
     @RequestMapping("/")
     public String home() {
         System.out.println("Home method called");
-        return "index.jsp";
+        return "index";
     }
     @RequestMapping("/add")
     public String add(@RequestParam("num1") int num1, @RequestParam("num2") int num2, Model model){
@@ -20,6 +20,6 @@ public class HomeController {
         int result = num1 + num2 + 1;
         System.out.println(result);
         model.addAttribute("result", result);
-        return "result.jsp";
+        return "result";
     }
 }
